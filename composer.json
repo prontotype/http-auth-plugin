@@ -1,0 +1,15 @@
+{
+    "name": "prontotype/basic-auth-plugin",
+    "type": "prontotype-plugin",
+    "require": {
+        "prontotype/composer-installer": "~0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Prontotype\\Plugins\\HttpAuth\\": "src/"
+        }
+    },
+    "extra": {
+        "provider": "Prontotype\\Plugins\\HttpAuth\\HttpAuthPlugin"
+    }
+}
